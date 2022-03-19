@@ -8,7 +8,7 @@ f = open("token.txt","r")
 token = f.read()
 f.close()
 
-toiletlist = ["future","smmono9","standard"]
+toiletlist = ["future","smmono9","standard","small","smbraille]
 boxeslist = ["ada-box","ada-cmt","boxquote","boy","c","c-cmt","caml","capgirl","cat","columns","diamonds","dog","f90-box","face","girl","html","ian_jones","important","jstone","mouse","nuke","peek","right","santa","scroll","shell","spring","unicornsay","unicornthink","whirly","xes"]
 print(os.popen('echo 92#6163 | toilet -f ' + str(toiletlist[random.randint(0,len(toiletlist)-1)]) + ' | boxes -d ' + str(boxeslist[random.randint(0,len(boxeslist)-1)]) + ' | lolcat').read())
 
