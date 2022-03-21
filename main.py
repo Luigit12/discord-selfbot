@@ -24,4 +24,4 @@ async def e(ctx, *args):
     print(out)
     await ctx.send(f"```{out.read()}```")
 
-client.run(token, bot=False
+client.run(token, bot=False)
